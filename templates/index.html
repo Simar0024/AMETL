@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMETL</title>
+    <link rel="icon" type ="image" href="../static/media/logo.png">
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body id="top">
+    <header class="header">
+        <div class="outer-left">
+        <div class="left">
+            <a href="/"><img src="../static/media/logo.png" alt="Logo" class="logo"></a> 
+            <p class="tagline">AMETL<sup class="tm">TM</sup></p>
+        </div>
+        <p class="motto">Accelor Microsystems Environment Test Laboratory</p>
+        </div>
+        <div class="right" >
+            <ul>
+                <a href="/"><li>HOME</li></a>
+                <a href="#about"><li>ABOUT</li></a>
+                <a href="#services"><li>SERVICES</li></a>
+                <a href="#contact"><li>CONTACT</li></a>
+            </ul>
+        </div>
+    </header>
+    <div class="header-box">
+        Your Partner in Quality and Compliance
+    </div>
+    <section class="slider">
+        <div class="slide active">
+            <video autoplay loop muted>
+                <source src="../static/media/drone.mp4" type="video/mp4">
+            </video>
+            <div class="content">
+                <h1>Environmental Testing Laboratory<br>for<br>Electronic Products<br><span class="industry">INDUSTRIAL & DEFENSE</span></h1>
+            </div>
+        </div>
+        <div class="slide">
+            <video autoplay loop muted>
+                <source src="../static/media/pcb.mp4" type="video/mp4">
+            </video>
+            <div class="content">
+                <h1>Environmental Testing Laboratory<br>for<br>Electronic Products<br><span class="industry">INDUSTRIAL & DEFENSE</span></h1>
+            </div>
+        </div>
+        <div class="slide">
+            <video autoplay loop muted>
+                <source src="../static/media/aircraft.mp4" type="video/mp4">
+            </video>
+            <div class="content">
+                <h1>Environmental Testing Laboratory<br>for<br>Electronic Products<br><span class="industry">INDUSTRIAL & DEFENSE</span></h1>
+            </div>
+        </div>
+        <div class="dots">
+            <div class="dot active" onclick="showSlide(0)"></div>
+            <div class="dot" onclick="showSlide(1)"></div>
+            <div class="dot" onclick="showSlide(2)"></div>
+        </div>
+    </section>
+    <section class="intro" id="about" data-aos="fade-up" data-aos-duration="3000">
+        <div>
+            <h1>Who We Are <span style="color: rgb(211, 114, 18);">?</span></h1>
+            <p>Accelor Microsystems Environment Test Laboratory (AMETL)  is a specialized division of Accelor Microsystems Private Limited, located in Mohali, near Chandigarh. In June 2025, AMETL began offering its services to external clients, with <b>IS/ISO/IEC 17025:2017 (NABL)</b> accreditation currently in progress.</p>
+            <p>Backed by a skilled team, AMETL tests electronic products to <b>national and international standards</b> including <b>IS, IEC, JSS, and MIL,</b>ensuring accurate, reliable, and compliant results for the electronics industry.</p>
+        </div>
+        <img src="../static/media/nabl.png" alt="NABL Logo" class="nabl-logo">
+    </section>
+    <main class="main-content">
+        <div class="main-card-1">
+        <div class="vision">
+            <img src="../static/media/vision.png" alt="Vision" class="vision-img">
+            <h1 data-aos="fade-left" data-aos-duration="7000">Our <span style="color: rgb(211, 114, 18);">Vision</span></h1>
+        </div>
+        <p class="para-vision">To be the leading environmental testing facility for electronic products in the industry and defense sector, recognized for our commitment to quality, innovation, and customer satisfaction, while driving sustainable growth.</p>
+        <div class="mission">
+            <img src="../static/media/mission.png" alt="Mission" class="mission-img">
+            <h1 data-aos="fade-right" data-aos-duration="5000">Our <span style="color: rgb(211, 114, 18);">Mission</span></h1>
+        </div>
+            <p class="para-mission">
+                At AMETL, our mission is to provide comprehensive and reliable environmental <br> testing services for electronic products. We aim to support the customer by:
+                <ul class="my-list">
+                    <li>Delivering accurate and timely testing results</li>
+                    <li>Fostering a culture of continuous improvement</li>
+                    <li>Building strong partnerships with our clients</li>
+                    <li>Upholding the highest standards of integrity and safety</li>
+                    <li>Achieving sustainable growth </li>
+                </ul>
+            </p>
+        </div>
+        <div class="choose-us">
+            <h1 data-aos="zoom-out-down" data-aos-duration="2000">Why Choose Us <span style="color: rgb(211, 114, 18);">?</span></h1>
+            <ul class="my-list-2">
+                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><span class="list-point">Expertise:</span> Proficient in IS/ISO/IEC 17025:2017 auditing. Experts in electronics and electrical testing aligned with <b>IS, IEC, JSS,</b> and<b> MIL</b> standards.</li>
+                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><span class="list-point">State-of-the-Art Equipment:</span> Equipped with cutting-edge chambers and vibration systems to simulate extreme environmental conditions with precision.</li>
+                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><span class="list-point">Comprehensive Services:</span> Our capabilities include high-temperature testing, Low-temperature testing, high-altitude simulation, thermal cycling, thermal shock, damp heat testing, vibration testing and mechanical shock.</li>
+                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><span class="list-point">Customer Focused:</span> We collaborate closely with clients to deliver tailored testing solutions that meet specific product and compliance goals.</li>
+                <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><span class="list-point">Testing Rates:</span> Competitive rates designed to offer value without compromising on quality or accuracy.</li>
+            </ul>
+        </div>
+    </main>
+    <section class="testing" id="services">
+        <div class="outer">
+            <div class="test">
+                <h1>Testing Solutions</h1>
+                <img src="../static/media/test.png" alt="Test" class="test-img">
+            </div>
+            <ul>
+                <p><b>Available Tests at AMETL</b></p>
+                <div class="test-types">
+                    <div>
+                        <li>High Temperature Testing</li>
+                        <li>Low Temperature Testing</li>
+                        <li>Damp and Heat Tests</li>
+                        <li>Thermal Cycling</li>
+                    </div>
+                    <div>
+                        <li>Thermal Shock Testing</li>
+                        <li>High Altitude Testing</li>
+                        <li>Tropical Exposure Test</li>
+                        <li>Vibration and Shock Testing </li>
+                    </div> 
+                </div>
+                <p><b>Various test methods from the following standards are in our scope</b></p>
+                <div class="test-method">
+                    <div>
+                        <li>JSS 55555 (Fourth Revision): 2020</li>
+                        <li>JSS 50101(Second Revision): 2022</li>
+                        <li>IEC 60068 series</li>
+                        <li>IS 9000 PL-III</li>
+                    </div>
+                    <div>
+                        <li>MIL-STD-810H</li>
+                        <li>MIL-STD-202</li>
+                        <li>MIL-STD-883</li>
+                        <li>MIL-STD-331D</li>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </section>
+    <section class="equip">
+        <h1>Our Equipment</h1>
+        <div class="upper">
+            <div class="equip-card">
+                <div class="front">
+                    <img src="../static/media/burn.jpg" alt="Burn-In Chamber" class="equip-img">
+                    <h3>Burn-In Chamber Testing</h3>
+                </div>
+                <div class="back">
+                    <h4>Specifications:</h4>
+                    <ul>
+                        <li>Temperature range: 0<sup>o</sup>C to +100<sup>o</sup>C</li>
+	                    <li>Resolution: 0.1<sup>o</sup>C</li>
+	                    <li>Chamber size: 600 mm x 600 mm x 900 mm</li>
+                    </ul>
+                    <h4>Applications:</h4>
+                    <ul>                        
+	                    <li>PCB Baking</li>
+                        <li>High Temperature Testing</li>
+                        <li>Reliability Testing</li>
+                	    <li>Early Failure Detection</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="equip-card">
+                <div class="front">
+                    <img src="../static/media/environmental_chamber.png" alt="Environmental Chamber" class="equip-img">
+                    <h3>Environmental Chamber</h3>
+                </div>
+                <div class="back">
+                     <h4>Specifications:</h4>
+                    <ul>
+                        <li>Temperature range: -40<sup>o</sup>C to +150<sup>o</sup>C</li>
+	                    <li>Resolution: 0.1<sup>o</sup>C</li>
+                        <li>Humidity: upto 99% RH</li>
+                        <li>Resolution: 1% RH</li>
+	                    <li>Chamber size: 500 mm x 500 mm x 500 mm</li>
+                    </ul>
+                    <h4>Applications:</h4>
+                    <ul>                        
+	                    <li>Damp and Heat Tests</li>
+                        <li>Thermal Cycling</li>
+                	    <li>Humidity Testing</li>
+                        <li>High Temperature</li>
+                        <li>Low Temperature</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="equip-card">
+                <div class="front">
+                    <img src="../static/media/thermal.jpg" alt="Thermal Shock Chamber" class="equip-img">
+                    <h3>Thermal Shock Chamber</h3>
+                </div>
+                <div class="back">
+                    <h4>Specifications:</h4>
+                    <ul>
+                        <li>Temperature range: -70<sup>o</sup>C to +125<sup>o</sup>C</li>
+	                    <li>Resolution: 0.1<sup>o</sup>C</li>
+	                    <li>Chamber size: 400 mm x 400 mm x 400 mm</li>
+                    </ul>
+                    <h4>Applications:</h4>
+                    <ul>                        
+	                    <li>Thermal Shock Testing</li>
+                        <li>High Temperature Testing</li>
+                        <li>Low Temperature Testing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="lower">
+            <div class="equip-card">
+                <div class="front">
+                    <img src="../static/media/altitude.jpg" alt="High Altitude Chamber" class="equip-img">
+                    <h3>High Altitude Testing</h3>
+                </div>
+                <div class="back">
+                    <h4>Specifications:</h4>
+                    <ul>
+                        <li>Temperature range: -70<sup>o</sup>C to +120<sup>o</sup>C</li>
+	                    <li>Resolution: 0.1<sup>o</sup>C</li>
+                        <li>Humidity: upto 99% RH</li>
+                        <li>Altitude: upto 10 mbar</li>
+	                    <li>Chamber size: 810 mm x 670 mm x 705 mm</li>
+                    </ul>
+                    <h4>Applications:</h4>
+                    <ul>                        
+	                    <li>High Altitude Tests</li>
+                        <li>Pressure Testing</li>
+                        <li>Aerospace Testing</li>
+                        <li>Tropical Exposure</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="equip-card">
+                <div class="front">
+                    <img src="../static/media/vibrate.png" alt="Vibration Shaker" class="equip-img">
+                    <h3>Vibration & Shock Testing</h3>
+                </div>
+                <div class="back">
+                    <h4>Specifications:</h4>
+                    <ul>
+                        <li>Force: 1000 kgf</li>
+                        <li>Displacement Peak to Peak: 50 mm</li>
+                        <li>Frequency Range: 5 to 3200 Hz</li>
+                        <li>Horizontal Slip Table Size: 640 mm x 600 mm</li>
+                        <li>Head Expander Size: 600 mm x 600 mm</li>
+                    </ul>
+                    <h4>Applications:</h4>
+                    <ul>                        
+	                    <li>Vibration Tests (Random and Sinusoidal)</li>
+                        <li>Mechanical Shock Tests (Half Sine)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="tour">
+            <button class="tour-btn" onclick="showVideo()">Dive into AMETL<i class="bi bi-chevron-right arrow"></i></button>
+            <button class="form-btn"><a href="{{ url_for('form') }}" class="form-link">Request quote<i class="bi bi-chevron-right arrow"></i></a></button>
+        </div>
+        <video class="tour-video" autoplay hidden muted controls>
+                <source src="../static/media/lab-tour.mp4" type="video/mp4">
+        </video>
+    </section>
+    <section class="contact" id="contact">
+    <div class="first">
+      <h1>Contact Us</h1>
+      <p>For more information about our testing services or to request a quote, <br>please contact us at:</p>
+      <p><i class="bi bi-telephone-fill icon"></i>Phone: +91-7087229843</p>
+      <p><i class="bi bi-envelope-at-fill icon"></i>Email: ametl@accelorindia.com</p>
+      <p><i class="bi bi-geo-alt-fill icon"></i>Address: Plot No. F-451, Sector-74, Phase 8B<br><span class="address">Industrial Focal Point, SAS Nagar (Mohali)</span><br><span class="address">Punjab, India-160055</span></p>
+      <p><i class="bi bi-file-earmark-pdf-fill icon"></i>Brochure: <a href="../static/media/AMETL Brochure.pdf" class="address-link" target="_blank">View PDF</a></p>
+    </div>
+    <div class="second">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13722.144136726809!2d76.66279178715821!3d30.70332770000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fef003b542d27%3A0x321c01272a66d1d4!2sSector-74%20Phase-8B%20Mohali!5e0!3m2!1sen!2sus!4v1751453684065!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <br>
+        <p><i class="bi bi-box-arrow-in-up icon"><a href="#top" class="back-link">Back to Top</a></i></p>
+    </div>
+    </section>
+    <footer class="footer">
+        &copy; 2025 AMETL<sup class="tm">TM</sup> All Rights Reserved
+    </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="../static/script.js"></script>
+</body>
+</html>
