@@ -906,6 +906,9 @@ html{
         height: 100px;
         width: 130px;
     }
+    .para-vision{
+        width: 60%;
+    }
     .form-section,
     .my-form{
         width: 100%;
