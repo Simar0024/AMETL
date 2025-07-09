@@ -841,6 +841,7 @@ html{
     body {
         font-size: 16px;
         letter-spacing: normal;
+        overflow-x: hidden;
     }
     .header{
         width: 95%;
